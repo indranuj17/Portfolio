@@ -10,7 +10,7 @@ const Projects = () => {
     <div name='Projects' className='bg-gradient-to-b from-gray-900 to-black w-full text-white md:h-150vh '>
       <div className='flex flex-col max-w-screen-lg p-4 m-auto justify-center w-full h-full '>
         <div className='pb-8 flex flex-col justify-center mt-10'>
-        <button className='border-solid border-2 border-gray-500 bg-transparent text-3xl font-bold z-10 cursor-default px-12 w-1/2 mx-auto py-5 shadow-md shadow-slate-600'>Projects</button>
+        <button className='border-solid border-2 border-gray-500 bg-transparent text-3xl font-bold z-10 cursor-default px-8 w-1/2 mx-auto py-5 shadow-md shadow-slate-600'>Projects</button>
           <p className='py-4 text-lg font-semibold mt-6 Submit the form below to get in touch with me mx-auto '>Check out my work right here !</p>
         </div>
 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
