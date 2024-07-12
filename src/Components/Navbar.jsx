@@ -42,7 +42,7 @@ const Navbar = () => {
             })}; */}
 
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-gray-500 scale-105 duration-200 '>Home</li>
-            <li name="about" className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-gray-500 scale-105 duration-200 '></li>
+            <li  className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-gray-500 scale-105 duration-200 '>About</li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-gray-500 scale-105 duration-200 '>Experience</li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-gray-500 scale-105 duration-200 '>Projects</li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-400 hover:text-gray-500 scale-105 duration-200 '>Contact</li>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
         {Nav && (
               <ul className='flex flex-col justify-center items-center absolute top-0 left-0 right-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-700'>  
-              <li className='cursor-pointer px-4 py-6 text-4xl  hover:text-gray-500 '></li>
+              <li className='cursor-pointer px-4 py-6 text-4xl  hover:text-gray-500 '>Home</li>
               <li className='cursor-pointer px-4 py-6 text-4xl  hover:text-gray-500'>About</li>
               <li className='cursor-pointer px-4 py-6 text-4xl  hover:text-gray-500'>Experience</li>
               <li className='cursor-pointer px-4 py-6 text-4xl  hover:text-gray-500'>Projects</li>
