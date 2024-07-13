@@ -1,6 +1,8 @@
 import React from 'react'
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
 
+
+
 const About = () => {
   return (
     <div id="About" name="About " className='max-h-150vh w-full text-white bg-gradient-to-b from-slate-800 to-black flex  justify-center items-center'>
