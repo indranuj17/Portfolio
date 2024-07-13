@@ -3,7 +3,7 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2";
 
 const About = () => {
   return (
-    <div name="About " className='max-h-150vh w-full text-white bg-gradient-to-b from-slate-800 to-black flex  justify-center items-center'>
+    <div id="About" name="About " className='max-h-150vh w-full text-white bg-gradient-to-b from-slate-800 to-black flex  justify-center items-center'>
         <div className='max-w-screen-lg flex flex-col justify-center items-center p-4 w-full h-full'>
             <div className='pb-8 mt-4'>
                 <button className='border-solid border-2 border-gray-500 bg-transparent text-3xl font-bold z-10 cursor-default px-12 py-5  shadow-md shadow-slate-600'>About</button>
