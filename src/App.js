@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Exp from "./Components/Exp";
 import { Contact } from "./Components/Contact";
+import Edu from "./Components/Edu";
 function App() {
   return (
     <div >
@@ -14,9 +15,11 @@ function App() {
      <Home/>
      <Socials/>
      <About/>
+     <Edu/>
      <Exp/>
      <Projects/>
      <Contact/>
+    
     </div>
   );
 }
