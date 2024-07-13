@@ -7,7 +7,7 @@ import Project4 from '../assets/Project4.jpg'
 
 const Projects = () => {
   return (
-    <div id="Projects" name='Projects' className='bg-gradient-to-b from-gray-900 to-black w-full text-white md:h-150vh '>
+    <div id="Projects" name='Projects' className='bg-gradient-to-b from-black to-slate-800 w-full text-white md:h-150vh '>
       <div className='flex flex-col max-w-screen-lg p-4 m-auto justify-center w-full h-full '>
         <div className='pb-8 flex flex-col justify-center mt-10'>
         <button className='border-solid border-2 border-gray-500 bg-transparent text-3xl font-bold z-10 cursor-default px-8 w-1/2 mx-auto py-5 shadow-md shadow-slate-600'>Projects</button>
