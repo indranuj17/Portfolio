@@ -4,10 +4,10 @@ import Nit from '../assets/Nit.png'
 import Aps from '../assets/Apsb.png'
 const Edu = () => {
   return (
-    <div id="Edu" name="edu" className='bg-black h-200vh w-full text-white'>
+    <div id="Edu" name="edu" className='bg-gradient-to-b from-black to-slate-800 h-200vh w-full text-white'>
         <div className='max-w-screen-lg flex flex-col justify-center items-center m-auto p-4 w-full h-full'>
             <div className='pb-8 flex flex-col justify-center mt-10'>
-            <button className='border-solid border-2 border-gray-400 bg-transparent text-3xl font-bold z-10 cursor-default px-12 py-5 shadow-md shadow-slate-600'>Education</button>
+            <button className='border-solid border-2 border-gray-400 bg-transparent text-3xl font-bold z-10 cursor-default px-5 py-5 shadow-md shadow-slate-600 w-3/4 mx-auto'>Education</button>
             <p className='py-9 text-lg font-semibold mt-6'>Get to know anout my Educational Background</p>
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 w-full gap-8 px-12 py-8 sm:px-0 text-center'>
