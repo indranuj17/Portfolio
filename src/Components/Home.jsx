@@ -4,7 +4,7 @@ import { HiChevronDoubleRight } from "react-icons/hi";
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-slate-700 to-slate-900'>
+    <div id="Home"name="home" className='h-screen w-full bg-gradient-to-b from-slate-700 to-slate-800'>
       <div className='max-w-screen-lg  mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row'>
         <div className='flex flex-col text-white justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Frontend Developer</h2>
