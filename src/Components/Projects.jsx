@@ -15,36 +15,50 @@ const Projects = () => {
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+          
           <div className='shadow-md shadow-gray-500 rounded-xl'>
             <img src={Netflix} alt="Netflix" className='rounded-lg duration-200 hover:scale-105' />
+            <p className='text-sm pt-3 px-2'>Developed a responsive Netflix clone with HTML and CSS, ensuring accurate UI replication and user-friendly design for an immersive streaming experience.</p>
             <div className='flex justify-center items-center'>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105  '><a href="https://netflixclonee.netlify.app/ ">Demo</a></button>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105  '><a href="https://github.com/indranuj17/Netflix-Cl- ">Code</a></button>
             </div>
           </div>
+          
+          
           <div className='shadow-md shadow-gray-400 rounded-xl'>
             <img src={Project1} alt="Netflix" className='rounded-lg duration-200 hover:scale-105' />
+             <p className='text-sm pt-3 px-2 '>Developed a text-to-speech converter using HTML, CSS, and JavaScript, featuring user-friendly interface design, real-time text input, and high-quality audio output for enhanced accessibility and usability.</p>
             <div className='flex justify-center items-center'>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href="https://text-se-speech17.netlify.app/ ">Demo</a></button>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href=" https://github.com/indranuj17/Text-se-speech-Converter">Code</a></button>
             </div>
           </div>
+          
+          
           <div className='shadow-md shadow-gray-400 rounded-xl'>
             <img src={Project2} alt="Netflix" className='rounded-lg duration-200 hover:scale-105' />
+             <p className='text-sm pt-3 px-2'>Developed a currency converter with HTML, CSS, and JavaScript, enabling real-time exchange rate calculations and intuitive user interface for seamless currency conversions.</p>
             <div className='flex justify-center items-center'>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href="https://currencyexhange2.netlify.app/ ">Demo</a></button>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href="https://github.com/indranuj17/CurrConverter ">Code</a></button>
             </div>
           </div>
+          
+          
           <div className='shadow-md shadow-gray-400 rounded-xl'>
             <img src={Project3} alt="Netflix" className='rounded-lg duration-200 hover:scale-105' />
+             <p className='text-sm pt-3 px-2'>Developed a dynamic portfolio website using React.js, showcasing projects, skills, and achievements with interactive UI components. Implemented responsive design principles for seamless user experience across devices. </p>
             <div className='flex justify-center items-center'>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href=" ">Demo</a></button>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href="https://github.com/indranuj17/id-react-one-portfolio ">Code</a></button>
             </div>
           </div>
+          
+          
           <div className='shadow-md shadow-gray-400 rounded-xl'>
             <img src={Project4} alt="Netflix" className='rounded-lg duration-200 hover:scale-105' />
+             <p className='text-sm pt-3 px-2'>Designed and implemented a responsive movie search website using HTML, CSS, and JavaScript. Incorporated dynamic search functionality, API integration for real-time data</p>
             <div className='flex justify-center items-center'>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href="https://cineholic.netlify.app/ ">Demo</a></button>
               <button className='px-5 py-2 m-3 w-1/2 font-bold text-xl duration-200 hover:scale-105 '><a href="https://github.com/indranuj17/MovieSearch ">Code</a></button>
